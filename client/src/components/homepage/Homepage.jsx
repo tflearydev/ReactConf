@@ -1,13 +1,13 @@
 import React from 'react';
+import Navbar from '../navbar/Nav';
 
 function Homepage() {
 
     return (
 
-        <div>
-
-            Hello World
-        </div>
+        <>
+            <Navbar />
+        </>
 
     )
 }
