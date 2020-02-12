@@ -3,6 +3,7 @@ import Hamburger from "./Hamburger";
 import "./Nav.scss";
 import menu from '../../menu.png'
 import user from '../../user.png'
+import Language from './Language'
 
 
 // var spanStyles = {
@@ -42,6 +43,8 @@ function Navbar() {
        <img src={ user } alt="" className="prof"></img>
 
        <span className="sell">Start selling</span>
+
+       <Language />
     </nav>
     <Hamburger />
     

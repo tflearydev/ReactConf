@@ -5,7 +5,6 @@ import menu from '../../menu.png'
 
 
 
-
 var styles = {
     bmBurgerButton: {
       position: 'fixed',
@@ -79,7 +78,7 @@ class Hamburger extends Component {
         <>
     
 
-      <Menu styles= { styles } customBurgerIcon={ <img src= {menu} /> } right >
+      <Menu className="menu" styles= { styles } customBurgerIcon={ <img src= {menu} /> } right >
         <a id="home" className="menu-item" href="/">Home</a>
         <a id="about" className="menu-item" href="/about">About</a>
         <a id="contact" className="menu-item" href="/contact">Contact</a>
