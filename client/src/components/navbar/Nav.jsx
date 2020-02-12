@@ -1,6 +1,8 @@
 import React from "react";
 import Hamburger from "./Hamburger";
 import "./Nav.scss";
+import menu from '../../menu.png'
+
 
 // var spanStyles = {
 //     display: 'inline',
@@ -22,7 +24,14 @@ function Navbar() {
     <>
     <nav className="outerNav">
       
-        Hello
+     
+          
+          <div className="circle"></div>
+          
+          <span className="title">PARTSMART</span>
+     
+
+        {/* <img src={menu} alt=""></img> */}
        
     </nav>
     <Hamburger />

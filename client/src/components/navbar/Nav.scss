@@ -2,4 +2,23 @@
     background-color: #314550;
     font-size: 24px;
     padding: 22px 119px;
+    color: #E3E3E3;
+    font-weight: 600;
+}
+
+.circle {
+    border: 3px solid #E3E3E3;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+   display: inline-block;
+   top: 51px;
+   vertical-align: middle;
+
+   
+}
+
+.title {
+    margin-left: 13px;
+   vertical-align: middle;
 }

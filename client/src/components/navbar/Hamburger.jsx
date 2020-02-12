@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { slide as Menu } from 'react-burger-menu';
 import './Hamburger.scss'
-
+import menu from '../../menu.png'
 
 
 
@@ -10,10 +10,12 @@ var styles = {
     bmBurgerButton: {
       position: 'fixed',
       width: '39px',
-      height: '30px',
+      height: '37px',
     //   left: 'initial',
       right: '119px',
-      top: '25px',
+      top: '21px',
+      color: '#C4D0D9 !important',
+      backgroundColor: 'transparent'
       
     },
     bmBurgerBars: {
@@ -77,7 +79,7 @@ class Hamburger extends Component {
         <>
     
 
-      <Menu styles= { styles } right >
+      <Menu styles= { styles } customBurgerIcon={ <img src= {menu} /> } right >
         <a id="home" className="menu-item" href="/">Home</a>
         <a id="about" className="menu-item" href="/about">About</a>
         <a id="contact" className="menu-item" href="/contact">Contact</a>
