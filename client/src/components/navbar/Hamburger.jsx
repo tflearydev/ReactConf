@@ -7,7 +7,7 @@ import menu from '../../menu.png'
 
 var styles = {
     bmBurgerButton: {
-      position: 'fixed',
+      position: 'absolute',
       width: '39px',
       height: '37px',
     //   left: 'initial',

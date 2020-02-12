@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from '../navbar/Nav';
+import Jumbo from '../jumbotron/Jumbotron'
 
 
 function Homepage() {
@@ -8,6 +9,7 @@ function Homepage() {
 
         <>
             <Navbar />
+            <Jumbo />
         </>
 
     )
