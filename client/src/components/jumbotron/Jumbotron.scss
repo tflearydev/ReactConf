@@ -1,3 +1,41 @@
+.head {
+    position: relative
+}
+
+.jumbo, .overlay {
+    
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
 .jumbo {
-    height: 632px;
+    height: 561px;
+    background-image: url('https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/engine-1534799977.jpg');
+    // background-position: center center;
+    // background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 119px !important;
+    border-radius: 0px !important;
+    z-index: 1;
+    
+    
+}
+
+
+.overlay {
+    z-index: 2 !important;
+    background: rgba(0, 0, 0, 0.5);
+    height: 561px;
+    // width: 100%;
+   
+  
+
+}
+
+.hello {
+    z-index: 99 !important;
+    position: relative;
 }
