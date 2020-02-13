@@ -11,15 +11,18 @@
   left: 0;
 }
 
-.jumbo {
+.jumbotron {
     height: 561px;
+    width: 100vw;
     background-image: url('https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/engine-1534799977.jpg');
-    // background-position: center center;
+    background-position: center center;
     // background-size: cover;
     background-repeat: no-repeat;
     padding-left: 119px !important;
     border-radius: 0px !important;
     z-index: 1;
+    padding: 73px 0 !important;
+    // padding: 144px 116px
     
     
 }
@@ -27,8 +30,9 @@
 
 .overlay {
     z-index: 2 !important;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.7);
     height: 561px;
+    width: 100vw
     // width: 100%;
    
   
@@ -39,3 +43,11 @@
     z-index: 99 !important;
     position: relative;
 }
+
+// .welcome {
+//    color: white;
+//    z-index: 3;
+//    position: relative;
+// float: left;
+// }
+

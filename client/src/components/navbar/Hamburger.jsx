@@ -7,12 +7,14 @@ import menu from '../../menu.png'
 
 var styles = {
     bmBurgerButton: {
-      position: 'absolute',
+      position: 'relative',
       width: '39px',
       height: '37px',
     //   left: 'initial',
-      right: '119px',
-      top: '21px',
+    //   right: '119px',
+    //   top: '21px',
+    float: 'right',
+    marginTop: '-38px',
       color: '#C4D0D9 !important',
       backgroundColor: 'transparent'
       

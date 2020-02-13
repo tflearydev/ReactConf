@@ -1,10 +1,10 @@
 import React from "react";
 import Hamburger from "./Hamburger";
 import "./Nav.scss";
-import menu from '../../menu.png'
-import user from '../../user.png'
-import Language from './Language'
-
+import menu from "../../menu.png";
+import user from "../../user.png";
+import Language from "./Language";
+import { Container } from 'react-bootstrap'
 
 // var spanStyles = {
 //     display: 'inline',
@@ -22,34 +22,32 @@ import Language from './Language'
 
 function Navbar() {
   return (
-    
     <>
 
     
-    <nav className="outerNav">
-      
-     
+      <nav className="outerNav">
 
-          
-          <div className="circle"></div>
-          
-          <span className="title">PARTSMART</span>
-     
+      <Container>
+
+        <div className="circle"></div>
+
+        <span className="title">PARTSMART</span>
 
         {/* <img src={menu} alt=""></img> */}
 
-        
-       
-       <img src={ user } alt="" className="prof"></img>
+        <img src={user} alt="" className="prof"></img>
 
-       <span className="sell">Start selling</span>
+        <span className="sell">Start selling</span>
 
-       <Language />
-    </nav>
-    <Hamburger />
-    
+        <Language />
 
-</>
+        <Hamburger />
+
+        </Container>
+      </nav>
+      
+      
+    </>
   );
 }
 

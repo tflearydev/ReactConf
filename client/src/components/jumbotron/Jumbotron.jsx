@@ -1,21 +1,15 @@
-import React from 'react';
-import { Jumbotron, Button } from "react-bootstrap";
-import './Jumbotron.scss'
-
-
-
+import React from "react";
+import { Jumbotron, Container, Button } from "react-bootstrap";
+import "./Jumbotron.scss";
+import Search from "./Search";
 
 function Jumbo() {
-    return (
+  return (
+    <section className="head">
+      <Jumbotron className="jumbo">
+        <div className="overlay"></div>
 
-    
-      <section className="head">
-        
-       <Jumbotron className="jumbo">
-       <div className="overlay"></div>
-
-
-<div className="hello">
+        {/* <div className="hello">
   <h1>Hello, world!</h1>
   <p>
     This is a simple hero unit, a simple jumbotron-style component for calling
@@ -25,13 +19,22 @@ function Jumbo() {
   <p>
     <Button variant="primary">Learn more</Button>
   </p>
-  </div>
+  </div> */}
 
+{/* <Container className="welcome2"> */}
+        <Search />
+        {/* <span className="welcome">
+        THE PARTS YOU NEED<br></br>
+        WHEN YOU NEED THEM
+        </span> */}
+        {/* </Container> */}
+       
+      </Jumbotron>
 
+      
 
-</Jumbotron>
-</section>
-    )
+    </section>
+  );
 }
 
 export default Jumbo;
