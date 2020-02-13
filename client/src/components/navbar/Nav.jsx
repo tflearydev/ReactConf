@@ -1,10 +1,11 @@
 import React from "react";
 import Hamburger from "./Hamburger";
 import "./Nav.scss";
-import menu from "../../menu.png";
+// import menu from "../../menu.png";
 import user from "../../user.png";
 import Language from "./Language";
-import { Container } from 'react-bootstrap'
+import { Container } from 'react-bootstrap';
+
 
 // var spanStyles = {
 //     display: 'inline',
@@ -38,7 +39,7 @@ function Navbar() {
 
         <img src={user} alt="" className="prof"></img>
 
-        <span className="sell">Start selling</span>
+        <a><span className="sell">Start selling</span></a>
 
         <Language />
 

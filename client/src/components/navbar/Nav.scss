@@ -1,9 +1,12 @@
 .outerNav {
-    background-color: #314550;
+    background-color: transparent;
     font-size: 24px;
     padding: 22px 119px;
     color: #E3E3E3;
     font-weight: 600;
+    z-index: 2;
+    position: absolute;
+    width: 100vw
 }
 
 .circle {
@@ -39,9 +42,13 @@
 //    right: 271px;
     float: right;
 //    position: absolute;
-   font-size: 20px;
+   font-size: 18px;
    margin-top: 2.5px;
    margin-right: 34.08px;
+   border: 2px solid #C4D0D9;
+   padding: 0.5px 6px;
+   border-radius: 3px;
+
     // margin-right: 20px;
 }
 

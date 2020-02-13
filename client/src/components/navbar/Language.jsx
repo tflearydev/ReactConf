@@ -1,5 +1,6 @@
 import React from 'react';
 import { Menu, Dropdown, Button, Icon, message  } from 'antd';
+import global from '../../global.png'
 import './Language.scss';
 // import './App.scss';
 
@@ -66,7 +67,7 @@ function Language() {
 
     <Dropdown overlay={menu}>
       <Button className="antbtn">
-        English <Icon type="down" />
+        <img src={global} alt="" className="global"></img> English (US)
       </Button>
     </Dropdown>
   </>
