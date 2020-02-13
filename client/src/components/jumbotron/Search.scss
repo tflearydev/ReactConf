@@ -4,8 +4,13 @@
 //    width: 360px;
     z-index: 3;
     
+    
   
    
+}
+
+.card {
+    border-radius: 2px !important;
 }
  
 .col-lg-8 {
@@ -24,4 +29,28 @@
     font-weight: 700;
     line-height: 60px;
     margin-top: -30px;
+}
+
+.what {
+    font-weight: 700 !important;
+    color: black;
+}
+
+.searchicon {
+    width: 20px;
+    height: 20px;
+    color: gray;
+}
+
+.input-group-text {
+    background-color: white !important;
+}
+
+.input-group {
+    background-color: white !important;
+   
+}
+
+.form-control, .addon {
+    border-radius: 2px !important;
 }

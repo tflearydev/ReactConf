@@ -1,6 +1,13 @@
 import React from "react";
 import { Card, Form, Container, Row, Col, Button } from "react-bootstrap";
-import './Search.scss'
+import './Search.scss';
+import {
+    InputGroup,
+    InputGroupText,
+    InputGroupAddon,
+    FormInput,
+  } from "shards-react";
+  import searchicon from '../../searchicon.png';
 
 
 function Search() {
@@ -11,16 +18,18 @@ function Search() {
             <Card className="search-card">
               <Card.Body>
                 <Form>
-                  <Card.Title className="text-center">What part are you looking for</Card.Title>
+                  <Card.Title className="text-center what">What part are you looking for</Card.Title>
                  
-                    <Form.Label>Category</Form.Label>
-                    <Form.Control as="select">
-                      <option>Any</option>
-                      <option>2</option>
-                      <option>3</option>
-                      <option>4</option>
-                      <option>5</option>
-                    </Form.Control>
+
+                  <Form.Group>
+                  <InputGroup className="mb-2">
+        <FormInput placeholder="Search by tern or VIN" />
+        <InputGroupAddon type="append" className="addon">
+          <InputGroupText><img src={searchicon} alt="search icon" className="searchicon"></img></InputGroupText>
+        </InputGroupAddon>
+      </InputGroup>
+      </Form.Group>
+
                 
                   <Form.Group>
                     <Form.Label>Manufacturer</Form.Label>

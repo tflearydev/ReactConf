@@ -17,27 +17,33 @@ import './Language.scss';
 // export default Drop;
 
 
-function handleButtonClick(e) {
-  message.info('Click on left button.');
-  console.log('click left button', e);
-}
 
-function handleMenuClick(e) {
-  message.info('Click on menu item.');
+function handleSpanishClick(e) {
+  message.info('You have switched to Spanish');
   console.log('click', e);
 }
 
+function handleGermanClick(e) {
+    message.info('You have switched to German');
+    console.log('click', e);
+  }
+
+  function handleLatinClick(e) {
+    message.info('You have switched to Latin');
+    console.log('click', e);
+  }
+
 const menu = (
-  <Menu onClick={handleMenuClick}>
-    <Menu.Item key="1">
+  <Menu>
+    <Menu.Item key="1" onClick={handleSpanishClick}>
       <Icon type="user" />
       Spanish
     </Menu.Item>
-    <Menu.Item key="2">
+    <Menu.Item key="2" onClick={handleGermanClick}>
       <Icon type="user" />
       German
     </Menu.Item>
-    <Menu.Item key="3">
+    <Menu.Item key="3" onClick={handleLatinClick}>
       <Icon type="user" />
       Latin
     </Menu.Item>
