@@ -14,9 +14,15 @@ var styles = {
     //   right: '119px',
     //   top: '21px',
     float: 'right',
-    marginTop: '-38px',
-      color: '#C4D0D9 !important',
-      backgroundColor: 'transparent'
+    // overflow: 'none',
+    // marginTop: '-1px',
+      color: 'white !important',
+      backgroundColor: 'transparent',
+    //   marginLeft: '70px',
+    //   display: 'inline-block',
+    //   clear: 'both !important'
+     
+      
       
     },
     bmBurgerBars: {
@@ -61,9 +67,11 @@ var styles = {
     bmOverlay: {
       background: 'rgba(0, 0, 0, 0.3)',
       zIndex: '1000',
-      width: '100%',
+      width: '100vw',
       height: '100%',
       top: '0',
+      left: '0'
+    //   transform: 'translate3d(1%, 0px, 0px)'
      
     }
   }

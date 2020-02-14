@@ -1,3 +1,5 @@
+
+
 .outerNav {
     background-color: transparent;
     font-size: 24px;
@@ -6,7 +8,9 @@
     font-weight: 600;
     z-index: 2;
     position: absolute;
-    width: 100vw
+    width: 100vw;
+   
+   
 }
 
 .circle {
@@ -29,13 +33,18 @@
 .prof {
     width: 36px;
     // position: absolute;
+    // clear: both;
+    overflow: hidden;
     height: 33px;
     // right: 201.08px;
     float: right;
-    margin-right: 83px;
+    margin-right: 43.08px;
   
     margin-top: 2px;
     vertical-align: middle;
+    // clear: both !important;
+   
+    
 }
 
 .sell {
@@ -48,8 +57,12 @@
    border: 2px solid #C4D0D9;
    padding: 0.5px 6px;
    border-radius: 3px;
+//    clear: both !important;
 
     // margin-right: 20px;
 }
 
    
+.nice {
+    margin-top: -37px;
+}

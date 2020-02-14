@@ -7,19 +7,8 @@ import Language from "./Language";
 import { Container } from 'react-bootstrap';
 
 
-// var spanStyles = {
-//     display: 'inline',
-//     float: 'right'
-// }
 
-// var buyStyles = {
-//     paddingLeft: '200px',
 
-// }
-
-// var sellStyles = {
-//     marginLeft: '75px'
-// }
 
 
 function Navbar() {
@@ -37,15 +26,28 @@ function Navbar() {
 
         {/* <img src={menu} alt=""></img> */}
 
+
+
+<div className="nice">
+        <Hamburger />
+
         <img src={user} alt="" className="prof"></img>
 
         <a><span className="sell">Start selling</span></a>
 
         <Language />
+        </div>
 
-        <Hamburger />
 
+       
+
+    
+
+        
+
+        
         </Container>
+     
       </nav>
       
       
