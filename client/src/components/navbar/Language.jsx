@@ -1,7 +1,7 @@
-import React from 'react';
-import { Menu, Dropdown, Button, Icon, message  } from 'antd';
-import global from '../../global.png'
-import './Language.scss';
+import React from "react";
+import { Menu, Dropdown, Button, Icon, message } from "antd";
+import global from "../../global.png";
+import "./Language.scss";
 // import './App.scss';
 
 // function Drop() {
@@ -17,22 +17,20 @@ import './Language.scss';
 
 // export default Drop;
 
-
-
 function handleSpanishClick(e) {
-  message.info('You have switched to Spanish');
-  console.log('click', e);
+  message.info("You have switched to Spanish");
+  console.log("click", e);
 }
 
 function handleGermanClick(e) {
-    message.info('You have switched to German');
-    console.log('click', e);
-  }
+  message.info("You have switched to German");
+  console.log("click", e);
+}
 
-  function handleLatinClick(e) {
-    message.info('You have switched to Latin');
-    console.log('click', e);
-  }
+function handleLatinClick(e) {
+  message.info("You have switched to Latin");
+  console.log("click", e);
+}
 
 const menu = (
   <Menu>
@@ -52,10 +50,9 @@ const menu = (
 );
 
 function Language() {
-
   return (
- <>
-    {/* <Dropdown.Button onClick={handleButtonClick} overlay={menu}>
+    <>
+      {/* <Dropdown.Button onClick={handleButtonClick} overlay={menu}>
       Dropdown
     </Dropdown.Button>
     <Dropdown.Button overlay={menu} icon={<Icon type="user" />}>
@@ -65,14 +62,13 @@ function Language() {
       Dropdown
     </Dropdown.Button> */}
 
-    <Dropdown overlay={menu}>
-      <Button className="antbtn">
-        <img src={global} alt="" className="global"></img> English (US)
-      </Button>
-    </Dropdown>
-  </>
-);
-
+      <Dropdown overlay={menu}>
+        <Button className="antbtn">
+          <img src={global} alt="" className="global"></img> English (US)
+        </Button>
+      </Dropdown>
+    </>
+  );
 }
 
 export default Language;

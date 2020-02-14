@@ -16,7 +16,7 @@
     width: 100vw;
     background-image: url('https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/engine-1534799977.jpg');
     background-position: center center;
-    // background-size: cover;
+    background-size: cover;
     background-repeat: no-repeat;
     padding-left: 119px !important;
     border-radius: 0px !important;
@@ -28,6 +28,12 @@
     
 }
 
+@media (min-width: 1200px) {
+
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1240px !important;
+}
+}
 
 .overlay {
     z-index: 2 !important;

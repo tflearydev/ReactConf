@@ -19,9 +19,9 @@ function Search() {
           <Card className="search-card">
             <Card.Body>
               <Form>
-                <Card.Title className="text-center what">
+                {/* <Card.Title className="text-center what">
                   What part are you looking for
-                </Card.Title>
+                </Card.Title> */}
 
 
 

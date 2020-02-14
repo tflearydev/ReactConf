@@ -22,7 +22,7 @@ function Navbar() {
 
         <div className="circle"></div>
 
-        <span className="title">PARTSMART</span>
+        <span className="title">GENERATION PARTS</span>
 
         {/* <img src={menu} alt=""></img> */}
 
