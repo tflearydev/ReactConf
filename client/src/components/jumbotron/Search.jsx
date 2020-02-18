@@ -90,7 +90,7 @@ function Search() {
             </Card.Body>
           </Card>
 
-          <div className="text-center">
+          <div className="text-center search-btn">
                 <Button
                   gradient="aqua"
                   //   rounded
