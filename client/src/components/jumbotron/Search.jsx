@@ -11,6 +11,11 @@ import {
 import searchicon from "../../searchicon.png";
 import Drop from "./Drop";
 
+const orStyle = {
+  marginTop: "-5px",
+  marginBottom: "30px"
+};
+
 function Search() {
   return (
     <Container>
@@ -22,9 +27,6 @@ function Search() {
                 {/* <Card.Title className="text-center what">
                   What part are you looking for
                 </Card.Title> */}
-
-
-
 
                 <Form.Group>
                   <InputGroup className="vin">
@@ -41,19 +43,13 @@ function Search() {
                   </InputGroup>
                 </Form.Group>
 
-
+                <hr style={orStyle}></hr>
 
                 <Form.Group>
                   {/* <Form.Label>Manufacturer</Form.Label> */}
 
-
-
                   <Drop />
                 </Form.Group>
-
-
-
-
 
                 <Form.Group controlId="exampleForm.ControlSelect2">
                   {/* <Form.Label>Model</Form.Label>
@@ -66,8 +62,6 @@ function Search() {
                     </Form.Control> */}
                   <Drop />
                 </Form.Group>
-
-
 
                 <Form.Group controlId="exampleForm.ControlSelect2">
                   {/* <Form.Label>Model</Form.Label>

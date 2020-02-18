@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
-import Homepage from './components/homepage/Homepage';
+import Homepage from './pages/homepage/Homepage';
 import "bootstrap/dist/css/bootstrap.min.css";
 // import logo from './logo.svg';
 import './App.scss';

@@ -1,5 +1,6 @@
+
 .head {
-    position: relative
+    position: absolute
 }
 
 .jumbo, .overlay {
@@ -22,7 +23,7 @@
     border-radius: 0px !important;
     z-index: 1;
     padding: 73px 0 !important;
-    position: fixed;
+    position: absolute;
     // padding: 144px 116px
     
     
@@ -50,11 +51,4 @@
     z-index: 99 !important;
     position: relative;
 }
-
-// .welcome {
-//    color: white;
-//    z-index: 3;
-//    position: relative;
-// float: left;
-// }
 
