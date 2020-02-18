@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card, Col, Row, Avatar } from 'antd';
-import Engine from '../../tuckeng.jpg'
+import Engine from '../../assets/tuckeng.jpg'
 import './Parts.scss';
 
 const { Meta } = Card;

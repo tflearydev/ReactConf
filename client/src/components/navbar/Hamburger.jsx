@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { slide as Menu } from "react-burger-menu";
 import "./Hamburger.scss";
-import menu from "../../menu.png";
+import menu from "../../assets/menu.png";
 
 var styles = {
   bmBurgerButton: {

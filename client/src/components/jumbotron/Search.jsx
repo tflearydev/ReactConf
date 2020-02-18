@@ -76,7 +76,21 @@ function Search() {
                 </Form.Group>
               </Form>
 
-              <div className="text-center">
+              {/* <div className="text-center">
+                <Button
+                  gradient="aqua"
+                  //   rounded
+                  size="sm"
+                  type="submit"
+                  className="text-center search-button"
+                >
+                  Search
+                </Button>
+              </div> */}
+            </Card.Body>
+          </Card>
+
+          <div className="text-center">
                 <Button
                   gradient="aqua"
                   //   rounded
@@ -87,8 +101,8 @@ function Search() {
                   Search
                 </Button>
               </div>
-            </Card.Body>
-          </Card>
+
+          
         </Col>
 
         <Col lg={8}>
