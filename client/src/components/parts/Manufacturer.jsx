@@ -7,7 +7,7 @@ import  manu2  from '../../assets/manufacturers/manu2.png'
 import  manu3  from '../../assets/manufacturers/manu3.png'
 import  manu4  from '../../assets/manufacturers/manu4.png'
 import  manu5  from '../../assets/manufacturers/manu5.png'
-import  manu6  from '../../assets/manufacturers/manu6.png'
+
 
 import './Manufacturer.scss';
 
@@ -46,130 +46,132 @@ function Manufacturer() {
     <Row gutter={16}>
 
 
-     <Col lg={4} sm={8} xs={8}>
+     <Col lg={5}>
          <a href="#" alt="">
         <Card bordered={false}
         cover={
             <img
             alt="example"
             src={manu1}
-            className='cat-img mx-auto'
+            className='manu-img1 mx-auto'
           />
             }>
         {/* <span className="text-center">
         All Parts
         </span> */}
-
+{/* 
         <Meta
       title="Engines"
       className="card-text"
       
-    />
+    /> */}
+
+    
         </Card>
         </a>
       </Col>
 
 
-      <Col lg={4} sm={8} xs={8}>
+      <Col lg={5}>
          <a href="#" alt="">
         <Card bordered={false}
         cover={
             <img
             alt="example"
             src={manu2}
-            className='cat-img mx-auto'
+            className='manu-img2 mx-auto'
           />
             }>
         {/* <span className="text-center">
         All Parts
         </span> */}
 
-        <Meta
+        {/* <Meta
       title="Axels"
       className="card-text"
       
-    />
+    /> */}
         </Card>
         </a>
       </Col>
 
 
 
-      <Col lg={4} sm={8} xs={8}>
+      <Col lg={4}>
          <a href="#" alt="">
         <Card bordered={false}
         cover={
             <img
             alt="example"
             src={manu3}
-            className='cat-img mx-auto'
+            className='manu-img3 mx-auto'
           />
             }>
         {/* <span className="text-center">
         All Parts
         </span> */}
 
-        <Meta
+        {/* <Meta
       title="Transmissions"
       className="card-text"
       
-    />
+    /> */}
         </Card>
         </a>
       </Col>
 
 
 
-      <Col lg={4} sm={8} xs={8}>
+      <Col lg={5}>
          <a href="#" alt="">
         <Card bordered={false}
         cover={
             <img
             alt="example"
             src={manu4}
-            className='cat-img mx-auto'
+            className='manu-img4 mx-auto'
           />
             }>
         {/* <span className="text-center">
         All Parts
         </span> */}
-
+{/* 
         <Meta
       title="Cabs"
       className="card-text"
       
-    />
+    /> */}
         </Card>
         </a>
       </Col>
 
 
 
-      <Col lg={4} sm={8} xs={8}>
+      <Col lg={5}>
          <a href="#" alt="">
         <Card bordered={false}
         cover={
             <img
             alt="example"
             src={manu5}
-            className='cat-img mx-auto'
+            className='manu-img5 mx-auto'
           />
             }>
         {/* <span className="text-center">
         All Parts
         </span> */}
 
-        <Meta
+        {/* <Meta
       title="Hoods"
       className="card-text"
       
-    />
+    /> */}
         </Card>
         </a>
       </Col>
 
 
-      <Col lg={4} sm={8} xs={8}>
+      {/* <Col lg={4} sm={8} xs={8}>
          <a href="#" alt="">
         <Card bordered={false}
         cover={
@@ -179,9 +181,7 @@ function Manufacturer() {
             className='cat-img mx-auto'
           />
             }>
-        {/* <span className="text-center">
-        All Parts
-        </span> */}
+        
 
         <Meta
       title="See All"
@@ -190,7 +190,7 @@ function Manufacturer() {
     />
         </Card>
         </a>
-      </Col>
+      </Col> */}
 
 
     </Row>
