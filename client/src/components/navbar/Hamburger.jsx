@@ -1,24 +1,19 @@
 import React, { Component } from "react";
 import { slide as Menu } from "react-burger-menu";
 import "./Hamburger.scss";
-import menu from "../../assets/menu.png";
+import menu from "../../assets/newmenu.svg";
 
 var styles = {
   bmBurgerButton: {
     position: "relative",
-    width: "39px",
-    height: "37px",
-    //   left: 'initial',
-    //   right: '119px',
-    //   top: '21px',
+    width: "32px",
+    height: "32px",
+   
     float: "right",
-    // overflow: 'none',
-    // marginTop: '-1px',
+  
     color: "white !important",
     backgroundColor: "transparent"
-    //   marginLeft: '70px',
-    //   display: 'inline-block',
-    //   clear: 'both !important'
+   
   },
   bmBurgerBars: {
     background: "#C4D0D9"

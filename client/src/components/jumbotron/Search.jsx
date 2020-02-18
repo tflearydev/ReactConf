@@ -92,7 +92,7 @@ function Search() {
 
           <div className="text-center search-btn">
                 <Button
-                  gradient="aqua"
+                  // gradient="aqua"
                   //   rounded
                   size="sm"
                   type="submit"
