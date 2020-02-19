@@ -48,7 +48,7 @@ function Manufacturer() {
 
      <Col lg={5}>
          <a href="#" alt="">
-        <Card bordered={false}
+        <Card bordered={false} className="manu-card"
         cover={
             <img
             alt="example"
@@ -66,7 +66,7 @@ function Manufacturer() {
       
     /> */}
 
-    
+
         </Card>
         </a>
       </Col>
@@ -74,7 +74,7 @@ function Manufacturer() {
 
       <Col lg={5}>
          <a href="#" alt="">
-        <Card bordered={false}
+        <Card bordered={false} className="manu-card"
         cover={
             <img
             alt="example"
@@ -99,7 +99,7 @@ function Manufacturer() {
 
       <Col lg={4}>
          <a href="#" alt="">
-        <Card bordered={false}
+        <Card bordered={false} className="manu-card"
         cover={
             <img
             alt="example"
@@ -124,7 +124,7 @@ function Manufacturer() {
 
       <Col lg={5}>
          <a href="#" alt="">
-        <Card bordered={false}
+        <Card bordered={false} className="manu-card"
         cover={
             <img
             alt="example"
@@ -149,7 +149,7 @@ function Manufacturer() {
 
       <Col lg={5}>
          <a href="#" alt="">
-        <Card bordered={false}
+        <Card bordered={false} className="manu-card"
         cover={
             <img
             alt="example"

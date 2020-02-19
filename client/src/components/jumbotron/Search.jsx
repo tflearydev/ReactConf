@@ -21,12 +21,15 @@ function Search() {
     <Container>
       <Row className="">
         <Col lg={4}>
+          
           <Card className="search-card">
             <Card.Body>
               <Form>
                 {/* <Card.Title className="text-center what">
                   What part are you looking for
                 </Card.Title> */}
+
+                
 
                 <Form.Group>
                   <InputGroup className="vin">
@@ -42,6 +45,8 @@ function Search() {
                     </InputGroupAddon>
                   </InputGroup>
                 </Form.Group>
+
+
 
                 <hr style={orStyle}></hr>
 
