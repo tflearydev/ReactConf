@@ -6,7 +6,22 @@ const footStyle = {
     position: 'relative',
    top: '600px',
    
+   
 }
+
+const footHead = {
+    fontWeight: '700',
+    fontSize: '20px',
+    color: '#202B31',
+    
+}
+
+const footSpace = {
+    paddingRight: '30px',
+    paddingLeft: '30px'
+}
+
+
 
 function Footer() {
 
@@ -16,10 +31,12 @@ function Footer() {
 
 
 <Container>
-    <Row>
+    <Row style={footSpace}>
 
         <Col lg={3}>
-            Hello
+
+
+            <div style={footHead}>Hello</div>
 
             </Col>
 

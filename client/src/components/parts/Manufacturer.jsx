@@ -43,7 +43,7 @@ function Manufacturer() {
 
 
 
-    <Row gutter={16}>
+    <Row gutter={90}>
 
 
      <Col lg={5}>
@@ -72,7 +72,7 @@ function Manufacturer() {
       </Col>
 
 
-      <Col lg={5}>
+      <Col lg={5} className="padding2">
          <a href="#" alt="">
         <Card bordered={false} className="manu-card"
         cover={
