@@ -3,7 +3,7 @@ import Hamburger from "./Hamburger";
 import "./Nav.scss";
 // import menu from "../../menu.png";
 import user from "../../user.png";
-import Language from "./Language";
+// import Language from "./Language";
 import { Container } from 'react-bootstrap';
 
 
@@ -35,7 +35,7 @@ function Navbar() {
 
         <a><span className="sell">Start selling</span></a>
 
-        <Language />
+        {/* <Language /> */}
         </div>
 
 

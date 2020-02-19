@@ -60,9 +60,8 @@ Be the first to know about our daily sales!
 </div>
 </Col>
 
-
-
 </Row>
+
 
 </Container>
     </section>

@@ -32,6 +32,12 @@ const linkDiv = {
     marginBottom: '15px'
 }
 
+const copyright = {
+    paddingLeft: '50px',
+    marginTop: '35px',
+    marginBottom: '68px'
+}
+
 
 function Footer() {
 
@@ -67,23 +73,40 @@ function Footer() {
             <Col lg={3}>
             <a href="#"><div style={footHead}>Stay Connected</div></a>
 
-            <a href="#" style={linkStyles}><div style={linkDiv}>Registration</div></a>
-            <a href="#" style={linkStyles}><div style={linkDiv}>Money back guarantee</div></a>
-            <a href="#" style={linkStyles}><div style={linkDiv}>Locations</div></a>
+            <a href="#" style={linkStyles}><div style={linkDiv}>Generation Part's Blog</div></a>
+            <a href="#" style={linkStyles}><div style={linkDiv}>Facebook</div></a>
+            <a href="#" style={linkStyles}><div style={linkDiv}>Instagram</div></a>
+            <a href="#" style={linkStyles}><div style={linkDiv}>Twitter</div></a>
 
             </Col>
 
             <Col lg={3}>
             <a href="#"><div style={footHead}>About</div></a>
 
-            <a href="#" style={linkStyles}><div style={linkDiv}>Registration</div></a>
-            <a href="#" style={linkStyles}><div style={linkDiv}>Money back guarantee</div></a>
-            <a href="#" style={linkStyles}><div style={linkDiv}>Locations</div></a>
+            <a href="#" style={linkStyles}><div style={linkDiv}>Company Info</div></a>
+            <a href="#" style={linkStyles}><div style={linkDiv}>Info</div></a>
+            <a href="#" style={linkStyles}><div style={linkDiv}>Diversity & Inclusion</div></a>
+            <a href="#" style={linkStyles}><div style={linkDiv}>Careers</div></a>
 
 
             </Col>
 
             </Row>
+
+
+
+            <Row>
+
+      <Col lg={12}>
+        <div style={copyright}>
+            Copyright 2020 Generation Parts All Rights Reserved. <span className="cookies">Accessibility, User Agreement, Privacy, Cookies,</span> and <span className="cookies">AdChoice</span>
+        </div>
+
+      </Col>
+
+
+</Row>
+
 
             </Container>
         </footer>
