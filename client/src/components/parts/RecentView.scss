@@ -5,7 +5,7 @@ height: 168px;
 
 .see-all {
     float: right;
-   
+   text-decoration: underline;
     color: #9D9C9A !important;
 }
 
@@ -15,6 +15,7 @@ height: 168px;
     color: #9D9C9A;
     background-color: none;
     font-size: 18px;
+    font-weight: 600
 }
 
 .ant-card {

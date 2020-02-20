@@ -15,9 +15,9 @@ const { Meta } = Card;
 
 var top5 = {
     
-  top: '500px',
+  top: '530px',
   position: 'relative',
-  zIndex: '9999'
+  zIndex: '1'
 
 }
 
@@ -31,16 +31,16 @@ function Categories() {
 
 
 
-<div style={{ background: 'white', padding: '30px' }}>
+<div style={{ background: 'white'}}>
 
 
 
     <Row gutter={16}>
 
 
-     <Col lg={4} sm={8} xs={8}>
+     <Col lg={4} sm={8} xs={8} className="cat-pad">
          <a href="#" alt="">
-        <Card bordered={false}
+        <Card bordered={false}  className="cat-div"
         cover={
             <img
             alt="example"
@@ -54,7 +54,7 @@ function Categories() {
 
         <Meta
       title="Engines"
-      className="card-text"
+      className="man-card-text"
       
     />
         </Card>
@@ -64,7 +64,7 @@ function Categories() {
 
       <Col lg={4} sm={8} xs={8}>
          <a href="#" alt="">
-        <Card bordered={false}
+        <Card bordered={false}  className="cat-div"
         cover={
             <img
             alt="example"
@@ -77,8 +77,8 @@ function Categories() {
         </span> */}
 
         <Meta
-      title="Axels"
-      className="card-text"
+      title="Axles"
+      className="man-card-text"
       
     />
         </Card>
@@ -89,7 +89,7 @@ function Categories() {
 
       <Col lg={4} sm={8} xs={8}>
          <a href="#" alt="">
-        <Card bordered={false}
+        <Card bordered={false} className="cat-div"
         cover={
             <img
             alt="example"
@@ -103,7 +103,7 @@ function Categories() {
 
         <Meta
       title="Transmissions"
-      className="card-text"
+      className="man-card-text"
       
     />
         </Card>
@@ -114,7 +114,7 @@ function Categories() {
 
       <Col lg={4} sm={8} xs={8}>
          <a href="#" alt="">
-        <Card bordered={false}
+        <Card bordered={false} className="cat-div"
         cover={
             <img
             alt="example"
@@ -128,7 +128,7 @@ function Categories() {
 
         <Meta
       title="Cabs"
-      className="card-text"
+      className="man-card-text"
       
     />
         </Card>
@@ -139,7 +139,7 @@ function Categories() {
 
       <Col lg={4} sm={8} xs={8}>
          <a href="#" alt="">
-        <Card bordered={false}
+        <Card bordered={false} className="cat-div"
         cover={
             <img
             alt="example"
@@ -153,7 +153,7 @@ function Categories() {
 
         <Meta
       title="Hoods"
-      className="card-text"
+      className="man-card-text"
       
     />
         </Card>
@@ -163,21 +163,22 @@ function Categories() {
 
       <Col lg={4} sm={8} xs={8}>
          <a href="#" alt="">
-        <Card bordered={false}
+        <Card bordered={false} className="cat-div"
         cover={
             <img
             alt="example"
             src={All}
             className='cat-img mx-auto'
           />
+          
             }>
         {/* <span className="text-center">
         All Parts
         </span> */}
 
         <Meta
-      title="See All"
-      className="card-text"
+      title="All parts"
+      className="man-card-text"
       
     />
         </Card>

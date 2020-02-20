@@ -1,7 +1,11 @@
 .submit-btn {
-    width: 373px !important;
-   
-    
+    width: 373px !important; 
+}
+
+@media screen and (max-width: 420px) {
+    .submit-btn {
+        width: 100% !important;
+    }
 }
 
 .search {
@@ -9,26 +13,25 @@
 }
 
 .first-text {
-    margin-top: 10px;
+    margin-top: 5px;
     font-size: 20px;
     font-weight: bold;
-    color: #202B31
-}
+    color: #202B31;
+    padding-right: 44px !important
 
-.submitt {
-    margin-left: 10px;
 }
 
 .ant-btn {
     border-radius: 0px 2px 2px 0px !important;
     background-color: #408FC6 !important;
     border-color:  #408FC6 !important;
+    width: 127px;
 }
 
-.ant-input {
-    // border-radius: 4px !important;
-    // opacity: 1;
+.submitt {
+    padding-left: 40px !important;
 }
+
 
 .cookies {
     text-decoration: underline;

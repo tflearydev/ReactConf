@@ -8,7 +8,7 @@ const { Search } = Input;
 
 const emailStyle = {
     position: 'relative',
-    top: '540px',
+    top: '581px',
     paddingTop: '50px',
     paddingBottom: '50px',
     backgroundColor: '#EBEBEB',
@@ -40,21 +40,21 @@ function HomeEmail() {
           <Row>
 
 
-          <Col lg={12}>
+          <Col lg={12} className="text-right first-text">
 
-<div className="text-center first-text">
+<div>
 Be the first to know about our daily sales!
 </div>
 </Col>
 
-              <Col lg={12}>
-<div className="submitt">
+              <Col lg={12} className="submitt">
+<div>
       <Search
         placeholder="Email Address"
         enterButton="Submit"
         size="large"
         onSearch={value => console.log(value)}
-        className="submit-btn"
+        className="submit-btn "
       />
 
 </div>

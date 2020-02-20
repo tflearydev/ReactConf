@@ -16,9 +16,9 @@ const { Meta } = Card;
 
 var top5 = {
     
-  top: '566px',
+  top: '625px',
   position: 'relative',
-  zIndex: '9999'
+  zIndex: '1'
 
 }
 
@@ -87,7 +87,7 @@ function Manufacturer() {
         </span> */}
 
         {/* <Meta
-      title="Axels"
+      title="Axles"
       className="card-text"
       
     /> */}

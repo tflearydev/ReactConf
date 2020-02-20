@@ -4,7 +4,7 @@ import { Container, Col, Row } from 'react-bootstrap'
 
 const footStyle = {
     position: 'relative',
-   top: '600px',
+   top: '606px',
    
    
 }
@@ -20,7 +20,7 @@ const footHead = {
 
 const footSpace = {
     paddingRight: '0px',
-    paddingLeft: '50px'
+    paddingLeft: '7vw'
 }
 
 const linkStyles = {
@@ -33,9 +33,11 @@ const linkDiv = {
 }
 
 const copyright = {
-    paddingLeft: '50px',
+    // paddingLeft: '3.5vw',
     marginTop: '35px',
-    marginBottom: '68px'
+    marginBottom: '68px',
+    fontSize: '16px',
+    paddingLeft: '7vw'
 }
 
 
